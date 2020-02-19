@@ -20,10 +20,6 @@ def main():
     result = sp_dict_client.get_spanish_short_definitions("food")
     print(f"food has the following spanish translations: {', '.join(result)}")
 
-    #print(f"num_to_words(62)={num_to_words(62)}")
-    #print(f"num_to_words(1047)={num_to_words(1047)}")
-    #print(f"num_to_words(100002)={num_to_words(100002)}")
-
 
 def setup_logging():
     logPath = Path(Path.cwd(), "logs")
