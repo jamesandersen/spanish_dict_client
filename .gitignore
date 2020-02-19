@@ -1,0 +1,8 @@
+.venv
+logs
+
+.Python
+
+__pycache__
+
+env_vars.txt
