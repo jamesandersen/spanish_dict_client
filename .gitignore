@@ -5,4 +5,4 @@ logs
 
 __pycache__
 
-env_vars.txt
+.env
